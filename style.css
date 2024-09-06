@@ -58,6 +58,11 @@ h2{
 
 }
 
+.content h1{
+    color: black;
+    font-family: "DM Serif Display", serif;
+}
+
 .container {
     display: flex;
     justify-content: center;
