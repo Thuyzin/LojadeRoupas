@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="login.css">
@@ -40,9 +42,30 @@
 
     <main>
 
-        <section>
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Usuario" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box"></div>
+                    <input type="password" placeholder="Senha" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
 
-        </section>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Lembrar de mim</label>
+                    <a href="#">Esqueceu a senha</a>
+                </div>
+
+                <button type="submit" class="bnt">Login</button>
+
+                <div class="register-link">
+                    <p>Não possui uma conta? <a href="#">Criar Conta</a></p>
+                </div>
+            </form>
+        </div>
         
     </main>
     
