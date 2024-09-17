@@ -45,3 +45,23 @@
         </section>
         <section class="container">
         </section>
+
+        //Mais vendidos//
+
+
+        <div class="produtos">
+                <!-- Exemplo de Produto -->
+                <ul class="produto">
+                    <li>
+                        <img src="img/2.png" alt="Produto 1" width="200" height="200">
+                        <h3>Nossas Colecões</h3>
+                        <p>Calças e Camisetas</p>
+                    </li>
+
+                    <li>
+                        <img src="img/5.png" alt="Produto 2" width="200" height="200">
+                        <h3>Looks do dia a dia</h3>
+                        <p>Vestidos basicos</p>
+                    </li>
+                    <!-- Adicione mais produtos conforme necessário -->
+            </div>
