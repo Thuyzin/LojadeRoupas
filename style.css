@@ -1,6 +1,7 @@
 :root{
     --cor-fundo-site: #F1E9E5;
     --cor-botao: #BA7954;
+    --cor-letras: black;
 }
 
 *{
@@ -54,7 +55,12 @@ body{
     margin-top: 10px;
     font-size: 27px;
     margin-bottom: 10px;
+    
+}
 
+.head div ul li a:hover {
+    font-size: 30px;
+    
 }
 
 .head ul li a {
@@ -78,7 +84,10 @@ h2{
     font-size: 40px;
     color: black;
     font-family: "Roboto", sans-serif;
-    margin-top: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 200;
 }
 
 .content {
@@ -90,10 +99,14 @@ h2{
 }
 
 .content h1{
-    color: black;
     font-family: "Roboto", sans-serif;
-    margin-top: 20px;
-    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 200;
+    background: #BA7954;
+    color: white;
+    border: 5px ridge #F1E9E5;
+    max-height: 100px;
 }
 
 .container {
@@ -142,14 +155,18 @@ h2{
     cursor: pointer;
     font-family: "DM Serif Display", serif;
     color: white;
-    margin-bottom: 223px;
+    margin-bottom: 2px;
+
 
 }
 
 .mais-vendidos{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    padding: 5px 5px 5px 5px;
 }
 
 .footer{
@@ -245,6 +262,29 @@ ul{
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.t{
+    margin-top: 40px;
+    border: 7px ridge #BA7954;
+    width: 400vh;
+    height: 74vh;
+}
+
+.t img{
+    height: 72.7vh;
+}
+
+.acerto{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+    background: #BA7954;
+    color: #ccc;
+    border: 5px ridge #F1E9E5;
+    max-height: 100px;
 }
 
 @media (min-width: 768px) {}
