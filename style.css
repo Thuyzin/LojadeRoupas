@@ -21,12 +21,14 @@ body{
 }
 
 
-.container{
+.container {
+    height: 59vh;
     max-width: 1200px;
     width: 95%;
 }
 
 .head {
+    max-height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,12 +42,19 @@ body{
     padding: 0px;
 }
 
-.head ul li {
-    text-decoration: none;
-    color: black;
-    list-style-type: none;
-    padding: 0px;
+.head div ul li a {
+    background-color: var(--cor-fundo-site);
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px 20px 10px;
+    gap: 10px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 200;
+    color: var(--cor-letras);
     margin-top: 10px;
+    font-size: 27px;
+    margin-bottom: 10px;
+
 }
 
 .head ul li a {
@@ -129,7 +138,7 @@ h2{
     padding: 10px;
     font-size: 18px;
     background-color: var(--cor-botao);  
-    border: none;
+    border: ridge;
     cursor: pointer;
     font-family: "DM Serif Display", serif;
     color: white;
@@ -217,7 +226,26 @@ ul{
 
 .mais-vendidos{
     margin-top: 40px;
-}  
+}
+
+/* fiz esse css */
+.navegacao {
+    text-align: center;
+    height: 60px;
+    background-color: var(--cor-fundo-site);
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 @media (min-width: 768px) {}
 }
