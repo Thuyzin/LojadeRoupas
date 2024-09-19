@@ -63,6 +63,11 @@ body{
     
 }
 
+.head div ul li i{
+    justify-content: right;
+    margin-left: 30px;
+}
+
 .head ul li a {
     display: flex;
     flex-direction: row;
@@ -285,6 +290,10 @@ ul{
     color: #ccc;
     border: 5px ridge #F1E9E5;
     max-height: 100px;
+}
+
+.promocao{
+
 }
 
 @media (min-width: 768px) {}
