@@ -1,3 +1,9 @@
+:root{
+  --cor-fundo-site: #F1E9E5;
+  --cor-botao: #BA7954;
+  --cor-letras: black;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +20,13 @@
     background-position: center;
     
   }
+
+  .head ul {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background: var(--cor-fundo-site) ;
+}
   .wrapper{
     width: 420px;
     background: #F1E9E5;
@@ -104,3 +117,21 @@
   .register-link p a:hover{
     text-decoration: underline;
   }
+
+  .navegacao {
+    text-align: center;
+    height: 60px;
+    background-color: var(--cor-fundo-site);
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
